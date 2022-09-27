@@ -10,7 +10,7 @@
           <DxPager :visible="false" />
           <DxColumn :width="50" data-field="id"/>
           <DxColumn data-field="amount"/>
-          <DxColumn data-field="created"/>
+          <DxColumn data-field="created" dataType="date" format="dd/MM/yyyy HH:mm"/>
           <DxColumn data-field="title"/>
           <DxColumn type="buttons">
             <DxButton
